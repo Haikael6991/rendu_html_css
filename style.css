@@ -1,30 +1,203 @@
 *{
-    padding: 0;
     margin: 0;
-    
+    padding: 0;
+}
+body{
+    background-color: #F2EFEE;
+
+}
+header{
+    background-color:rgb(247, 247, 215);;
+    display: flex;
+    text-align: end;
+    justify-content: space-between;
+}
+#banniere{
+    width: 300px;
+}
+#banniere{
+    display: flex;
+}
+#Imgbanniere{
+    width: 50%;
+}
+#Textbanniere{
+    width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 h1{
-    font-size: 100px;
-    font-family: "Crimson Text", serif;
-    font-weight: 400;
-    font-style: normal;
+    text-align: center;
 }
-#hero{
-    display: flex;
-   
+#logoBanniere{
+    width: 100%;
+    display:inline-block;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+#lgBanniere{
+    width: 100%;
+    display:flex;
+    justify-content: space-evenly ;
+    flex-direction: row;
     align-items: center;
-    background-color: skyblue;
+}
+article #lgBanniere{
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+}
+#lgVert{
+    background-color: green;
+}
+#bgCandle{
+    width: 100%;
+    display:inline-block;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+h2 section{
+    text-align: center;
+}
+#bougieCandle{
+    width: 100%;
+    display:flex;
+    justify-content: space-evenly ;
+    flex-direction: row;
+    align-items: center;
+}
+#bougiesLueurs{
+    display: flex;
+    margin: 200px;
     img{
+        width: 20%;
+    }
+ }
+
+ #hero{
+    display: flex; 
+    color: rgb(247, 247, 215);
+    
+    img, div{
         width: 50%;
-        height: 50%;
+        text-align: center;
+        background-color: #46352A;
+    }
+    h1{
+        text-align: center;
+        
+    }
+    h2{
+        padding: 4;
+    }
    
     }
-} 
-#textehero{
-    padding: 20px;
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: weight ;
-    font-style: normal;
-   
-}
+    ul{
+        display: flex  ;
+            justify-content: space-between;
+            width: 340px;
+            align-items: center;
+        }
+        li{
+            list-style-type: none;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        h2{ text-align: center;
+
+        }
+        .galerie{
+            display: flex;
+            justify-content: space-around;
+        }
+
+        #bougie_a_vendre{
+            display: flex;
+            justify-content: space-evenly;
+            img{
+                width: 50px;
+                justify-content: center;
+            }
+        }
+        h3{
+            text-align: center
+        }
+        h3, p {
+            text-align: center;
+        
+        }
+    
+        .bougie-card{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            padding: 12px;
+            border-radius: 13px;
+            box-shadow: 1px 4px 15px #00000033;
+            margin: 12px;
+        }
+
+        #card1{ 
+            border: 1px solid black;
+
+        }
+        #card2{
+            border: 1px solid black;
+
+        }
+        #card3{
+            border: 1px solid black;
+        }
+        #phraseh2{
+            background-color:rgba(1, 44, 1, 0.121);
+        }
+        form{
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: auto;
+            textarea{
+                width: 390px;
+                height: 150px;
+            }
+        }
+    .formulaire{
+        display: flex;
+        flex-direction: column;
+        border-radius: 8px;
+        box-shadow:black;
+        text-align: center;
+        border: 1px, solid, black;
+
+    }
+
+
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: beige;
+        flex-direction: column;
+        padding-block: 10px;
+    }
+    #footerlogo{
+        color: black;
+    }
+
+    #dernierebougie{
+        color: #46352A;
+    }
+    #button{ 
+        background-color: #46352A;
+    }
+    
+    .firstRow{ 
+        display: flex;
+    }
